@@ -115,6 +115,36 @@ footer {
   padding: 20px;
 }
 
+.diaroxo {
+  background: rgb(180, 146, 236);
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  border-top: 5px solid var(--dourado);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.diaverde {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  border-top: 5px solid var(--dourado);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.diavermelho {
+  background: rgb(243, 108, 108);
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  border-top: 5px solid var(--dourado);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
 .dia {
   background: white;
   border-radius: 10px;
@@ -123,6 +153,18 @@ footer {
   border-top: 5px solid var(--dourado);
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   transition: 0.3s;
+}
+
+.diaroxo:hover {
+  transform: translateY(-5px);
+}
+
+.diaverde:hover {
+  transform: translateY(-5px);
+}
+
+.diavermelho:hover {
+  transform: translateY(-5px);
 }
 
 .dia:hover {
